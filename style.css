@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(12, 12, 12);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 0rem;
+}
+
+nav input {
+    width: 300px;
+    padding: .5rem 1rem;
+    background-color: rgb(66, 66, 66);
+    border: none;
+    border-radius: 2rem;
+    color: white;
+}
+
+header span {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: red;
+}
+
+main {
+    margin: 2rem 0rem;
+}
+
+.posters {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.poster {
+    width: 25%;
+}
+
+.poster h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+    height: 70px;
+    color: rgb(196, 196, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poster p {
+    color: grey;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.links {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.links a {
+    color: white;
+    width: 20%;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    transition: all ease-in-out 100ms;
+}
+
+.prime {
+    background-color: #00A8E1;
+}
+
+.hbo {
+    background-color: #991eeb;
+}
+
+.netflix {
+    background-color: red;
+}
+
+.links a:hover {
+    opacity: .8;
+}
+
+.poster img {
+    object-fit: cover;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    height: 430px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    padding: 2rem 0rem;
+    font-size: .8rem;
+    color: grey;
+}
+
+.svg {
+    margin-top: 1rem;
+    fill: grey;
+}
+
+.svg:hover {
+    fill: white;
+}
