@@ -1,4 +1,7 @@
 # Divflix
+Página do projeto: [Divflix Page](https://pablodixs.github.io/exercise_Divflix/)
+
+*O vídeo da hero section não funciona no GitHub Pages.*
  
 ### Screenshots
 
